@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Metadata Viewer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  </head>
+  <div class="container">
+  <body>
+    <div class="main">
+      <form>
+        <div>
+          <label for="filepicker">
+            <h1>Submit your file here<h1>
+            <hr height="2px">
+            <input id = "filepicker" name="filepicker" type="file" multiple/>
+          </label>
+        </div>
+        <button>Get Metadata</button>
+      </form>
+      <hr>
+      <pre id="data"></pre>
+    </div>
+
+    <script src="./renderer.js"></script>
+  </body>
+  </div>
+</html>
